@@ -1,4 +1,8 @@
-/*Navigation*/
+#home {
+  margin-top: var(--navbar-height);
+}
+
+/* Navigation */
 #navbar {
   flex-direction: column;
   padding: 6px 0;
