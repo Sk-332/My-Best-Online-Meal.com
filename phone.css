@@ -1,12 +1,11 @@
 /* Mobile fix for sticky navbar overlap */
-:root {
-  --navbar-height: 120px;
-}
-
 body {
-  padding-top: var(--navbar-height);
+  padding-top: 120px;
 }
 
+:root {
+  --navbar-height: 110px;
+}
 
 /* Navigation */
 #navbar {
