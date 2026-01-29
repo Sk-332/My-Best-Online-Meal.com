@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0;
 }
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -49,15 +54,30 @@ html {
 }
 #navbar ul li a {
   color: white;
-  display: block;
-  padding: 3px 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 22px;
   border-radius: 20px;
   text-decoration: none;
+  line-height: 1;
 }
+
+/* Hover */
 #navbar ul li a:hover {
   color: black;
   background-color: white;
 }
+
+/* Active  */
+#navbar ul li a:active {
+  background-color: white;
+  color: black;
+}
+#navbar ul li a:focus {
+  outline: none;
+}
+
 /*Home Section*/
 #home {
   display: flex;
