@@ -1,6 +1,12 @@
-#home {
-  margin-top: var(--navbar-height);
+/* Mobile fix for sticky navbar overlap */
+:root {
+  --navbar-height: 120px;
 }
+
+body {
+  padding-top: var(--navbar-height);
+}
+
 
 /* Navigation */
 #navbar {
