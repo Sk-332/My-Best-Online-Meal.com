@@ -23,15 +23,16 @@
 }
 
 /*Home Section*/
-#home {
-  min-height: 370px;
+#home{
+  min-height: 320px;
   padding: 20px;
 }
 
-/* ✅ Fix image stretching on mobile */
 #home::before{
-  background-position: center top;
+  background-size: cover;
+  background-position: center;
 }
+
 
 #home p {
   font-size: 13px;
